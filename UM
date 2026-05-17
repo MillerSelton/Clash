@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2026-05-15 03:09:38
+# 创建时间：2026-05-17 22:05:44
 # 使用模版：V2RaySE 默认模版
-# 节点数量：57
+# 节点数量：50
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,106 +86,96 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇰🇷KR_19|3.7MB/s","type":"vless","server":"43.203.249.214","port":39295,"udp":true,"uuid":"06a1719f-417e-46f0-8a7d-e2b13ecf893a","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"CKyy_gy40xRlKa3sBbCg759CMC7vDMjZKqsiuC5BtWU","short-id":"88a32a0e9853b9"},"client-fingerprint":"firefox"}
-  - {"name":"NL🇳🇱 机场推荐:dafei.de 荷兰 01","type":"vless","server":"94.249.175.3","port":443,"udp":true,"uuid":"629d2ccc-3a2a-4dd3-83d2-86b25fc8783e","tls":true,"servername":"www.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ","short-id":"23"},"client-fingerprint":"chrome"}
-  - {"name":"US🇺🇸美国俄勒冈博德曼_5|852KB/s","type":"vless","server":"44.242.50.106","port":36895,"udp":true,"uuid":"5c875449-ae7d-46f8-b919-5a29f271dfce","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SKJQzoN8Lh8kqrDEyKzevbHHmfRhKe8XmzBxPYXF2A4","short-id":"5a585c3e894bf074"},"client-fingerprint":"firefox"}
-  - {"name":"NL荷兰🇳🇱NL_12|577KB/s","type":"vless","server":"144.31.30.45","port":443,"udp":true,"uuid":"f53cb93c-9cd2-4952-9660-4b4ff4b74484","tls":true,"servername":"max.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"OsyBt6w9NBZdXMBcoZbfGsObubUakouoGhU2coBK_3o","short-id":"83fc923fab83"},"client-fingerprint":"chrome"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱NL_4|1.5MB/s","type":"vless","server":"144.31.207.111","port":443,"udp":true,"uuid":"2001daf3-5c56-4bef-8ea6-8dd0493c5a4c","tls":true,"servername":"www.deepl.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU","short-id":"1a"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US_4|2.1MB/s","type":"trojan","server":"www.visa.com.sg","port":2087,"udp":true,"password":"PFmduUyIB3","sni":"welfare.yycx.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"welfare.yycx.eu.org"}}}
+  - {"name":"🇺🇸US_11|2.3MB/s","type":"trojan","server":"www.visa.com.sg","port":2087,"udp":true,"password":"vqxbI10iFG","sni":"welfare-4.yycx.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"welfare-4.yycx.eu.org"}}}
+  - {"name":"🇺🇸US_6|1.8MB/s","type":"trojan","server":"www.visa.com.sg","port":2087,"udp":true,"password":"AVpLKkrrUm","sni":"welfare-2.yycx.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"welfare-2.yycx.eu.org"}}}
+  - {"name":"🇺🇸US_5|1.9MB/s","type":"trojan","server":"www.visa.com.sg","port":2087,"udp":true,"password":"Q5IrBBh5Lh","sni":"welfare-1.yycx.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"welfare-1.yycx.eu.org"}}}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇭🇰 香港 5","type":"vless","server":"cl-ru-tw.fastaichat.ru","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","tls":true,"servername":"cl-ru-tw.fastaichat.ru","flow":"xtls-rprx-vision-udp443","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇬🇪 格鲁吉亚 11","type":"vless","server":"georg.sbrf-cdn342.ru","port":443,"uuid":"7bd29cac-f692-48a3-88d1-505f7e55f0d0","tls":true,"servername":"sub.sbrf-cdn342.ru","flow":"xtls-rprx-vision","network":"tcp"}
-  - {"name":"🇱🇹 立陶宛 | LTU","type":"vless","server":"vltch.mostserv.xyz","port":443,"udp":true,"uuid":"37253a6a-2a9b-42bb-992c-b5f1b1ef1791","tls":true,"servername":"vltch.mostserv.xyz","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI","short-id":"226509f017e4c36d"},"client-fingerprint":"chrome"}
-  - {"name":"🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM","type":"trojan","server":"125.227.86.46","port":443,"udp":true,"password":"0a9f1f5a397bd427","sni":"TG.freecodes","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"db"},"alpn":["h2"]}
-  - {"name":"🇩🇪DE_7|723KB/s","type":"vless","server":"159.195.82.187","port":9443,"udp":true,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg","short-id":"2344766a270a6298"},"client-fingerprint":"chrome"}
-  - {"name":"US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 美国 7","type":"vless","server":"2.27.63.99","port":443,"udp":true,"uuid":"76713d07-5a6b-49c2-abd8-bc450a2fa7fc","tls":true,"servername":"download.spectrum.vu","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8","short-id":"ad8c7a6ace2f"},"client-fingerprint":"chrome"}
   - {"name":"🇭🇰 香港 12","type":"vless","server":"cl-ru-tw.fastaichat.ru","port":52006,"uuid":"75807638-6f19-07d0-ae08-38492ee85c88","tls":true,"servername":"cl-ru-tw.fastaichat.ru","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"🇹🇼TW_2|9.0MB/s","type":"trojan","server":"125.227.86.45","port":443,"udp":true,"password":"0a9f1f5a397bd427","sni":"TG.freecodes","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"db"},"alpn":["h2"]}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US_1|1.8MB/s","type":"trojan","server":"www.visa.com.sg","port":2087,"udp":true,"password":"ZmvOLEWbCq","sni":"welfare-3.yycx.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"welfare-3.yycx.eu.org"}}}
+  - {"name":"🇩🇪DE_4|737KB/s","type":"vless","server":"159.195.82.187","port":9443,"udp":true,"uuid":"4649d681-7f26-4959-a3f2-02eb8866230f","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg","short-id":"2344766a270a6298"},"client-fingerprint":"chrome"}
   - {"name":"🇱🇹 立陶宛 20","type":"vless","server":"84.32.209.6","port":443,"udp":true,"uuid":"37253a6a-2a9b-42bb-992c-b5f1b1ef1791","tls":true,"servername":"vltch.mostserv.xyz","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI","short-id":"226509f017e4c36d"},"client-fingerprint":"chrome"}
   - {"name":"🇩🇪 德国 113","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇩🇪 德国 151","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇳🇱 荷兰 | NLD","type":"vless","server":"144.31.157.163","port":443,"udp":true,"uuid":"ae8ddd8e-00af-48e5-bd57-05074a1bbffb","tls":true,"servername":"www.deepl.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU","short-id":"0123456789abcdef"},"client-fingerprint":"chrome"}
-  - {"name":"美国5|@ripaojiedian","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇹🇼TW_2|9.0MB/s","type":"trojan","server":"125.227.86.45","port":443,"udp":true,"password":"0a9f1f5a397bd427","sni":"TG.freecodes","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"db"},"alpn":["h2"]}
+  - {"name":"🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM","type":"trojan","server":"125.227.86.46","port":443,"udp":true,"password":"0a9f1f5a397bd427","sni":"TG.freecodes","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"db"},"alpn":["h2"]}
   - {"name":"🇺🇸 美国 - 洛杉矶 - 2","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇺🇸 美国 - 洛杉矶 - 3","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"US美国洛杉矶 V2CROSS.COM","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国_4|1.9MB/s","type":"vless","server":"r1.mizulina.top","port":22231,"uuid":"afcac633-0e1a-46c3-bef2-cc01cc0097c8","tls":true,"servername":"r1.mizulina.top","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"edge"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_17","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_18","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_19","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_20","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"SG新加坡(mibei77.com 米贝节点分享)","type":"vmess","server":"103.181.164.145","port":51556,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_17","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_18","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_19","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_20","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29","type":"vmess","server":"82.198.246.214","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"NL荷兰_2|848KB/s","type":"vless","server":"144.31.157.163","port":443,"udp":true,"uuid":"ae8ddd8e-00af-48e5-bd57-05074a1bbffb","tls":true,"servername":"www.deepl.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU","short-id":"0123456789abcdef"},"client-fingerprint":"chrome"}
-  - {"name":"德国🇩🇪DE_8|1.4MB/s","type":"vless","server":"152.233.35.228","port":8443,"uuid":"394f6981-a782-4779-9a85-e6cf22935d93","tls":true,"servername":"de1.fromblancwithlove.com","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛","type":"vless","server":"vltch.mostserv.xyz","port":443,"udp":true,"uuid":"37253a6a-2a9b-42bb-992c-b5f1b1ef1791","tls":true,"servername":"vltch.mostserv.xyz","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI","short-id":"226509f017e4c36d"},"client-fingerprint":"chrome"}
+  - {"name":"🇩🇪DE_3|2.0MB/s","type":"vless","server":"144.31.157.163","port":443,"udp":true,"uuid":"ae8ddd8e-00af-48e5-bd57-05074a1bbffb","tls":true,"servername":"www.deepl.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU","short-id":"0123456789abcdef"},"client-fingerprint":"chrome"}
+  - {"name":"US-美国5|@ripaojiedian","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -196,59 +186,52 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -259,59 +242,52 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -322,58 +298,51 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -384,58 +353,51 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -446,58 +408,51 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -508,16 +463,12 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -540,43 +491,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷KR_19|3.7MB/s
-      - NL🇳🇱 机场推荐:dafei.de 荷兰 01
-      - US🇺🇸美国俄勒冈博德曼_5|852KB/s
-      - NL荷兰🇳🇱NL_12|577KB/s
+      - 🇳🇱NL_4|1.5MB/s
+      - 🇺🇸US_4|2.1MB/s
+      - 🇺🇸US_11|2.3MB/s
+      - 🇺🇸US_6|1.8MB/s
+      - 🇺🇸US_5|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_1
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_2
       - 🇭🇰 香港 5
-      - 🇬🇪 格鲁吉亚 11
-      - 🇱🇹 立陶宛 | LTU
-      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
-      - 🇩🇪DE_7|723KB/s
-      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - 🇭🇰 香港 12
+      - 🇹🇼TW_2|9.0MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_3
+      - 🇺🇸US_1|1.8MB/s
+      - 🇩🇪DE_4|737KB/s
+      - 🇱🇹 立陶宛 20
+      - 🇩🇪 德国 113
+      - 🇩🇪 德国 151
+      - 🇹🇼TW_1|2.4MB/s|GPT⁺|YT-TW|NF|D+|GM
+      - 🇺🇸 美国 - 洛杉矶 - 2
+      - 🇺🇸 美国 - 洛杉矶 - 3
+      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
+      - US美国洛杉矶 V2CROSS.COM
+      - US🇺🇸美国洛杉矶(mibei77.com 米贝节点分享)
+      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_4
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_5
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_6
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_7
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_8
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_9
-      - 🇺🇸 美国 7
-      - 🇭🇰 香港 12
-      - 🇱🇹 立陶宛 20
-      - 🇩🇪 德国 113
-      - 🇩🇪 德国 151
-      - 🇳🇱 荷兰 | NLD
-      - 美国5|@ripaojiedian
-      - 🇹🇼TW_2|9.0MB/s
-      - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 - 洛杉矶 - 3
-      - US美国洛杉矶🇺🇸 机场推荐:dafei.de 美国 01
-      - US美国洛杉矶 V2CROSS.COM
-      - US🇺🇸美国洛杉矶 (mibei77.com 米贝节点分享)
-      - US🇺🇸美国_4|1.9MB/s
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_10
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_11
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_12
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_13
+      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_14
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_15
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_16
@@ -587,16 +535,12 @@ proxy-groups:
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_21
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_22
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_23
-      - SG新加坡(mibei77.com 米贝节点分享)
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_24
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_25
       - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_26
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_27
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_28
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_29
-      - US🇺🇸美国-洛杉矶-(mibei77.com 米贝节点分享)_30
-      - NL荷兰_2|848KB/s
-      - 德国🇩🇪DE_8|1.4MB/s
+      - Ru俄罗斯莫斯科.希奥利艾, 希奥利艾, 立陶宛
+      - 🇩🇪DE_3|2.0MB/s
+      - US-美国5|@ripaojiedian
 
 rules:
 # 本地/局域网地址
